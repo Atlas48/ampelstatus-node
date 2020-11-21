@@ -1,9 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.status = exports.err = exports.inf = exports.wrn = void 0;
-exports.wrn = "\033[1;93mWRN\033[0m: ";
-exports.inf = "\033[1;32mINF\033[0m: ";
-exports.err = "\033[1;31mERR\033[0m: ";
+exports.wrn = "\x1B[1;93mWRN\x1B[0m: ";
+exports.inf = "\x1B[1;32mINF\x1B[0m: ";
+exports.err = "\x1B[1;31mERR\x1B[0m: ";
 var status;
 (function (status) {
     status[status["inf"] = 0] = "inf";

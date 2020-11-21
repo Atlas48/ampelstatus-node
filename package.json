@@ -1,13 +1,14 @@
 {
-  "name": "ts-npm-module",
+  "name": "ampelstatus",
   "version": "1.0.0",
+  "license": "LGPL-3.0+",
   "author": "basaratali@gmail.com",
   "description": "A miniscule module to provide a framework for program statuses.",
   "homepage": "https://github.com/Atlas48/ampelstatus#readme",
   "main": "js/ampelstatus.js",
   "typings": "js/ampelstatus",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,6 @@
     "typescript",
     "cli"
   ],
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Atlas48/ampelstatus/issues"
   },
