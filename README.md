@@ -1,4 +1,20 @@
-# ts-npm-module
-Open this probject in [`atom-typescript`](https://atom.io/packages/atom-typescript). Press F6 to build. And then `npm publish` away.
+# Ampelstatus
 
-This project can be consumed flawlessly from the sister project [ts-npm-module-consume](https://github.com/basarat/ts-npm-module-consume)
+A itty-bitty dependency-free module that provides status codes for use in CLI programs.
+
+```js
+const ast=require('./js/ampelstatus.js');
+
+console.log(ast.inf+"This function did GREAT!!");
+console.log(ast.wrn+"Uh Oh! Something Happened!");
+console.log(ast.err+"The program's dead. It's entirely your fault. I hope you're happy.");
+```
+
+## inf
+Indicates an action has run successfully. 
+
+## wrn
+Indicates something has happened that could effect normal program function
+
+## err
+Indicates a fatal error.
