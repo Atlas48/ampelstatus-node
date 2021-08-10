@@ -1,5 +1,5 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
+exports.__esModule = true;
 exports.status = exports.err = exports.inf = exports.wrn = void 0;
 exports.wrn = "\x1B[1;93mWRN\x1B[0m: ";
 exports.inf = "\x1B[1;32mINF\x1B[0m: ";
