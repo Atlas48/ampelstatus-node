@@ -2,6 +2,8 @@
 
 A itty-bitty dependency-free module that provides status codes for use in CLI programs.
 
+**DEPRECATED AND MERGED INTO [AMPELOG](ampelog)**
+
 ```js
 const ast=require('./js/ampelstatus.js');
 
