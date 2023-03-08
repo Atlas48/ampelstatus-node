@@ -1,12 +1,24 @@
 "use strict";
 exports.__esModule = true;
-exports.status = exports.err = exports.inf = exports.wrn = void 0;
-exports.wrn = "\x1B[1;93mWRN\x1B[0m: ";
-exports.inf = "\x1B[1;32mINF\x1B[0m: ";
-exports.err = "\x1B[1;31mERR\x1B[0m: ";
-var status;
-(function (status) {
-    status[status["inf"] = 0] = "inf";
-    status[status["wrn"] = 1] = "wrn";
-    status[status["err"] = 2] = "err";
-})(status = exports.status || (exports.status = {}));
+exports.ASStatusType = exports.err = exports.wrn = exports.inf = exports.err_str = exports.wrn_str = exports.inf_str = void 0;
+exports.inf_str = "\x1B[1;32mINF\x1B[0m: ";
+exports.wrn_str = "\x1B[1;93mWRN\x1B[0m: ";
+exports.err_str = "\x1B[1;31mERR\x1B[0m: ";
+function inf(s) {
+    console.log(exports.inf_str + s);
+}
+exports.inf = inf;
+function wrn(s) {
+    console.error(exports.wrn_str + s);
+}
+exports.wrn = wrn;
+function err(s) {
+    console.error(exports.wrn_str + s);
+}
+exports.err = err;
+var ASStatusType;
+(function (ASStatusType) {
+    ASStatusType[ASStatusType["inf"] = 0] = "inf";
+    ASStatusType[ASStatusType["wrn"] = 1] = "wrn";
+    ASStatusType[ASStatusType["err"] = 2] = "err";
+})(ASStatusType = exports.ASStatusType || (exports.ASStatusType = {}));
