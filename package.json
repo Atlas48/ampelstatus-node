@@ -1,9 +1,9 @@
 {
   "name": "ampelstatus",
-  "version": "2.0.0",
+  "version": "3.0.1",
   "license": "LGPL-3.0+",
   "type": "module",
-  "author": "basaratali@gmail.com",
+  "author": "atlas48@sdf.org",
   "description": "A miniscule module to provide a framework for program statuses.",
   "homepage": "https://github.com/Atlas48/ampelstatus#readme",
   "main": "js/ampelstatus.js",
