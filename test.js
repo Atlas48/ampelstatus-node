@@ -1,4 +1,4 @@
-import {inf,wrn,err} from "./ampelstatus.js"
+import {inf,wrn,err} from "./lib/ampelstatus.js"
 
 inf("This function did GREAT!!");
 wrn("Uh Oh! Something Happened!");

@@ -10,4 +10,4 @@ pids
 # Dependency directory
 node_modules
 # other
-build
+src/tampelog.ts
